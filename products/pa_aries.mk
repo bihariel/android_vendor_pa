@@ -28,7 +28,7 @@ PREFS_FROM_SOURCE ?= false
 include vendor/pa/config/pa_common.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/xiaomi/aries/aries.mk)
+$(call inherit-product, device/xiaomi/aries/full_aries.mk)
 
 # Product Package Extras - Repos can be added manually or via addprojects.py
 #include vendor/pa/packages/aries.mk
